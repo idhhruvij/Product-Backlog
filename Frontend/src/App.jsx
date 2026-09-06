@@ -1,11 +1,10 @@
-import { Box } from "@chakra-ui/react"
-import { Route, Routes } from "react-router-dom"
-import CreatePage from "./pages/CreatePage"
-import Navbar from "./components/Navbar"
-import HomePage from "./pages/HomePage"
+import { Box } from "@chakra-ui/react";
+import { Route, Routes } from "react-router-dom";
+import CreatePage from "./pages/CreatePage";
+import Navbar from "./components/Navbar";
+import HomePage from "./pages/homepage"; // 🚨 FIX: Changed 'HomePage' to lowercase 'homepage'
 
 function App() {
-
   return (
     <Box minH="100vh" bg={{ base: "gray.100", _dark: "gray.900" }}>
       <Navbar />
@@ -14,7 +13,7 @@ function App() {
         <Route path='/create' element={<CreatePage />} />
       </Routes>
     </Box>
-  )
+  );
 }
 
-export default App
+export default App;
