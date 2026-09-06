@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:5000/api/products/6a9aaebea43590fdf1064c8b
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\":\"Smart phones1\",\r
+
+    \    \"price\":1000.00,\r
+
+    \    \"image\": \"https://example.com\"\r
+
+    }"
+order: 1367

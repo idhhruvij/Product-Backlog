@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:5000/api/products
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Laptops\",\r
+
+    \    \"price\": 399.99,\r
+
+    \    \"image\": \"https://dhruvi.com\"\r
+
+    \ }\r
+
+    \  "
+order: 4000
