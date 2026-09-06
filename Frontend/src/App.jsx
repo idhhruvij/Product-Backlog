@@ -2,7 +2,7 @@ import { Box } from "@chakra-ui/react";
 import { Route, Routes } from "react-router-dom";
 import CreatePage from "./pages/CreatePage";
 import Navbar from "./components/Navbar";
-import HomePage from "./pages/homepage"; // 🚨 FIX: Changed 'HomePage' to lowercase 'homepage'
+import HomePage from "./pages/HomePage"; // 🚨 FIX: Changed lowercase 'homepage' to capital 'HomePage'
 
 function App() {
   return (
